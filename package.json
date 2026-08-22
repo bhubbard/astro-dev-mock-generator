@@ -1,0 +1,49 @@
+{
+  "name": "astro-dev-mock-generator",
+  "version": "0.1.0",
+  "description": "Astro Dev Toolbar app that generates synthetic, realistic mock data for Astro Content Collections without cluttering local markdown files using Gemini Nano",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./app": {
+      "import": "./dist/app.js",
+      "types": "./dist/app.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts src/app.ts --outdir ./dist && bun x tsc src/index.ts src/app.ts --declaration --emitDeclarationOnly --outDir dist --moduleResolution bundler --target ESNext --module ESNext --skipLibCheck",
+    "test": "bun test",
+    "typecheck": "bun x tsc --noEmit"
+  },
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "astro-dev-toolbar",
+    "gemini-nano",
+    "chrome-ai",
+    "content-collections",
+    "mock-data",
+    "synthetic-data"
+  ],
+  "author": "bhubbard",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=5.0.0 <8.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "astro": "^5.4.0",
+    "typescript": "^5.8.0"
+  }
+}
