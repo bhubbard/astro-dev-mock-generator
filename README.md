@@ -5,8 +5,11 @@
 [![Chrome AI](https://img.shields.io/badge/AI-Gemini%20Nano%20(window.ai)-4285F4.svg?logo=googlechrome)](https://developer.chrome.com/docs/ai/built-in)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-code.brandonhubbard.com-brightgreen?logo=github)](https://code.brandonhubbard.com/astro-dev-mock-generator/)
 
 > **Astro Dev Toolbar app that generates synthetic, realistic mock data for Astro Content Collections without cluttering local markdown files using on-device Gemini Nano (`window.ai.languageModel`).**
+
+> 🎮 **Live Interactive Visualizer & Demo:** [astro-dev-mock-generator on code.brandonhubbard.com](https://code.brandonhubbard.com/astro-dev-mock-generator/)
 
 ---
 
